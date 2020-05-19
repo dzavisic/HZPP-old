@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4130E4D4-1FB7-7C83-56C2-7D69AFDF00BD" name="INFO">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:53:42 UTC</createdTime>
+<generatorID>E3B412BA-10F9-EF5A-EB65-3BB03B7EE2DA</generatorID>
+<ownerDesignName>hzpp</ownerDesignName>
+<engineerTo>
+<item key="273AF364-BD5D-62DD-CA26-318F41CE68D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="info id" id="76F83A9B-5B1E-1B57-43DF-C6E5BEBFAC14">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:53:42 UTC</createdTime>
+<generatorID>39B18645-92D9-32E9-5045-6F52046DFE77</generatorID>
+<ownerDesignName>hzpp</ownerDesignName>
+<engineerTo>
+<item key="273AF364-BD5D-62DD-CA26-318F41CE68D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cijena" id="71D2B6E3-89A5-BCD2-2B46-0500423D2BF2">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:53:42 UTC</createdTime>
+<generatorID>B3E0B9D2-1FAF-D8FD-961E-D93414CC457D</generatorID>
+<ownerDesignName>hzpp</ownerDesignName>
+<engineerTo>
+<item key="273AF364-BD5D-62DD-CA26-318F41CE68D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="trajanje" id="A3F4D637-8527-9644-9BE6-71E7C42F5625">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:53:42 UTC</createdTime>
+<generatorID>830D5AC6-7C3E-8920-A94A-81B374DD1586</generatorID>
+<ownerDesignName>hzpp</ownerDesignName>
+<engineerTo>
+<item key="273AF364-BD5D-62DD-CA26-318F41CE68D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vlak id" id="E97B143C-CC48-7BC4-F3CE-437E9BF2179B">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-13 22:12:43 UTC</createdTime>
+<generatorID>D48D38A2-3CF7-E31A-D542-9A05F4C973A0</generatorID>
+<ownerDesignName>hzpp</ownerDesignName>
+<engineerTo>
+<item key="273AF364-BD5D-62DD-CA26-318F41CE68D5" value="true"/>
+</engineerTo>
+<referedAttribute>8FB756ED-680B-30AA-0CC9-50F508DFA763</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5ED803A7-0E2D-F34B-DD18-9E0771E8E33D" name="INFO PK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:53:42 UTC</createdTime>
+<generatorID>BFDB986F-5DAE-269B-8120-2F4A9322F82E</generatorID>
+<ownerDesignName>hzpp</ownerDesignName>
+<engineerTo>
+<item key="273AF364-BD5D-62DD-CA26-318F41CE68D5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>76F83A9B-5B1E-1B57-43DF-C6E5BEBFAC14</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="1B3E3590-7E21-4EC0-AD70-7B6E12E064F2" name="INFO  UN">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-13 23:38:20 UTC</createdTime>
+<generatorID>F945E0DE-234F-B3D1-E467-DD845623D4A6</generatorID>
+<ownerDesignName>hzpp</ownerDesignName>
+<engineerTo>
+<item key="273AF364-BD5D-62DD-CA26-318F41CE68D5" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>76F83A9B-5B1E-1B57-43DF-C6E5BEBFAC14</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

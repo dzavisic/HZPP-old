@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="KARTA_KUPAC_FK" directorySegmentName="seg_0" id="F8A9F457-5E4A-E31B-7346-4F8C772CB0FD">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:53:42 UTC</createdTime>
+<generatorID>21C77917-CCB2-E6CB-58B9-2402EFAAEB8E</generatorID>
+<ownerDesignName>hzpp</ownerDesignName>
+<engineerTo>
+<item key="273AF364-BD5D-62DD-CA26-318F41CE68D5" value="true"/>
+</engineerTo>
+<sourcePk>3226CFC6-1CE0-1515-8518-9CDA6D07FA2C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C1500C5A-EE1F-B924-91FE-0BAF2554CF2A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>59274620-0E1B-CBCD-1B7D-CC9977663E70</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

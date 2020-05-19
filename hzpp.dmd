@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="hzpp" id="8811EE85-E5DE-1DF0-53A2-19F1D2A96ADF" version="3.5">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:13:35 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8811EE85-E5DE-1DF0-53A2-19F1D2A96ADF</designId>
+</OSDM_Design>

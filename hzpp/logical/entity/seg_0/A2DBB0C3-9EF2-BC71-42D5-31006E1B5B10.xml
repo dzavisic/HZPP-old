@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A2DBB0C3-9EF2-BC71-42D5-31006E1B5B10" name="POSTAJA">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:53:42 UTC</createdTime>
+<generatorID>73F606DA-4254-A3DF-0FD7-8C9149491CE9</generatorID>
+<ownerDesignName>hzpp</ownerDesignName>
+<engineerTo>
+<item key="273AF364-BD5D-62DD-CA26-318F41CE68D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="postaja id" id="1C3CD012-6BAF-4EAC-AE06-67ACFB3623EA">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:53:42 UTC</createdTime>
+<generatorID>EA1B723A-319F-52E5-EE4F-6120BFF2188D</generatorID>
+<ownerDesignName>hzpp</ownerDesignName>
+<engineerTo>
+<item key="273AF364-BD5D-62DD-CA26-318F41CE68D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naselje" id="1DA63039-AD4D-2F95-A494-ABCD9FEC4910">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:53:42 UTC</createdTime>
+<generatorID>7908C682-C440-41C0-1F8D-389D8B75BDA4</generatorID>
+<ownerDesignName>hzpp</ownerDesignName>
+<engineerTo>
+<item key="273AF364-BD5D-62DD-CA26-318F41CE68D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="blagajnik" id="9E490CF4-98BC-A8B0-0827-E00558F3809D">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-13 21:43:59 UTC</createdTime>
+<generatorID>94AA5BC4-C3B3-DDEE-E6D3-45E65A389597</generatorID>
+<ownerDesignName>hzpp</ownerDesignName>
+<engineerTo>
+<item key="273AF364-BD5D-62DD-CA26-318F41CE68D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="410402A0-7457-A11D-1987-9AE9E8EB2D18" name="POSTAJA PK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:53:42 UTC</createdTime>
+<generatorID>57066D8C-BB1F-9D36-3A98-CD6DDA405A96</generatorID>
+<ownerDesignName>hzpp</ownerDesignName>
+<engineerTo>
+<item key="273AF364-BD5D-62DD-CA26-318F41CE68D5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1C3CD012-6BAF-4EAC-AE06-67ACFB3623EA</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="821D092D-670B-1D0B-E03F-7BB10F362B0A" name="POSTAJA  UN">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-13 23:38:20 UTC</createdTime>
+<generatorID>C3DC98C8-43FC-0780-5F8F-5BADA670D513</generatorID>
+<ownerDesignName>hzpp</ownerDesignName>
+<engineerTo>
+<item key="273AF364-BD5D-62DD-CA26-318F41CE68D5" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>1C3CD012-6BAF-4EAC-AE06-67ACFB3623EA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9100E3E3-FA44-85B1-7CA5-365622A5D6AC" name="ZAPOSLENIK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 13:51:15 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="zap_id" id="03332DC5-72C6-78B3-303C-7EF3580DA94E">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 13:52:36 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime" id="8BABA21D-464F-F0D4-CF4E-291F5715E934">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 13:52:36 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prezime" id="855E36DA-1C94-4973-D9B3-919F9ECA59C0">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 13:52:36 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresa" id="3ED364C4-089C-2192-5209-C93A89B063A0">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 13:52:36 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tel" id="E0C24F47-8799-8DCD-D714-2C8518FDC4D7">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 13:52:36 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum" id="BBE4D26B-C775-32C6-141F-EE40CF3ABDAB">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 13:52:36 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="placa" id="BB20A6E6-4745-714F-3357-3413AF9C71BD">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-13 13:49:14 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uloga" id="3C926EAE-CDE9-BC2B-D4CB-3E15FFFF13CB">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-13 21:37:13 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2BD9C3E-749A-3E38-7D23-5AF2EC1266F1" name="ZAPOSLENIK_PK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 13:52:36 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03332DC5-72C6-78B3-303C-7EF3580DA94E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="KARTA_INFO_FK" directorySegmentName="seg_0" id="874CAAF4-92FE-008C-92AF-77459E8F5C48">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:53:42 UTC</createdTime>
+<generatorID>1EACCB71-ED51-D57A-6F58-8131991D91DA</generatorID>
+<ownerDesignName>hzpp</ownerDesignName>
+<engineerTo>
+<item key="273AF364-BD5D-62DD-CA26-318F41CE68D5" value="true"/>
+</engineerTo>
+<sourcePk>5ED803A7-0E2D-F34B-DD18-9E0771E8E33D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4130E4D4-1FB7-7C83-56C2-7D69AFDF00BD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>59274620-0E1B-CBCD-1B7D-CC9977663E70</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

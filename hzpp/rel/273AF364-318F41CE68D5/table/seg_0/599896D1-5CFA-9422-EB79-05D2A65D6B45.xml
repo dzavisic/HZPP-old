@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="599896D1-5CFA-9422-EB79-05D2A65D6B45" name="KUPAC">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:13:42 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="kupac_id" id="D07C067B-92E5-911D-A278-BB900BCBD5A9">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:15:29 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime" id="23615F0D-EF1C-FABD-E9C2-5BB37D155D1E">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:15:29 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prezime" id="C07BE6DB-8E1F-88A4-BB97-07702F71FC95">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:15:29 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresa" id="BA8197D7-D187-BF27-E62B-A6A1178A18A5">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:15:29 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tel" id="BB4520A1-5BB4-D704-E1B4-2B38C6647293">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:15:29 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum" id="BBB40DF0-D8A7-F62C-F3C9-65602C5640A4">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:15:29 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="popust_id" id="F5C8976D-41F9-1550-15F1-D87B6BABCD71">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:15:45 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC7BF4F5-493F-8328-C104-D9CA6F96D054" referredColumn="08DADA87-748B-368B-A16D-2A6EAD11609D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="17F7A003-AA45-62D3-32C9-B55707E1B55C" name="KUPAC_PK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:15:29 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D07C067B-92E5-911D-A278-BB900BCBD5A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0F073F0-69C5-052F-7F54-67C0E1238E2E" name="KUPAC_POPUST_FK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:17:12 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5C8976D-41F9-1550-15F1-D87B6BABCD71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

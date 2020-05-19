@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3FAE4CC-66B1-46B2-3A8C-3A37A931FF34" name="KARTA">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:22:37 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="karta_id" id="2851D791-773B-05A9-5BA1-7F2FB393F3E4">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:23:41 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="info_id" id="FE0066D5-1DC5-3A7F-E3DA-084381E4F563">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:23:41 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EACCB71-ED51-D57A-6F58-8131991D91DA" referredColumn="39B18645-92D9-32E9-5045-6F52046DFE77"/>
+</associations>
+</Column>
+<Column name="datum" id="9F866147-F451-083B-D0AF-4EC0FE9322EF">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:23:41 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kupac_id" id="CC5B48C4-27F6-59EB-B0CB-786CF8057769">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:23:57 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21C77917-CCB2-E6CB-58B9-2402EFAAEB8E" referredColumn="D07C067B-92E5-911D-A278-BB900BCBD5A9"/>
+</associations>
+</Column>
+<Column name="vrijeme_polaska" id="D1010D7F-5A57-076E-F171-6AF1C7A6BCC8">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-13 21:24:46 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19346BC1-3711-DBFC-33FB-A771CE525D54" name="KARTA_PK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:23:41 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2851D791-773B-05A9-5BA1-7F2FB393F3E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE1D3CE5-D0B8-E248-35C5-57E81A6C21EF" name="KARTA_INFO_FK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:24:31 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE0066D5-1DC5-3A7F-E3DA-084381E4F563"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44095F48-9066-E5D9-A431-BD43F4AAF6B5" name="KARTA_KUPAC_FK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:24:40 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC5B48C4-27F6-59EB-B0CB-786CF8057769"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

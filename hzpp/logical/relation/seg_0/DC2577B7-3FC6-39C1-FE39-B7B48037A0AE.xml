@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="INFO POSTAJA FKv2" directorySegmentName="seg_0" id="DC2577B7-3FC6-39C1-FE39-B7B48037A0AE">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:53:42 UTC</createdTime>
+<generatorID>4439437D-70CF-1C05-7D97-C739C4DDF9E8</generatorID>
+<ownerDesignName>hzpp</ownerDesignName>
+<engineerTo>
+<item key="273AF364-BD5D-62DD-CA26-318F41CE68D5" value="true"/>
+</engineerTo>
+<sourcePk>410402A0-7457-A11D-1987-9AE9E8EB2D18</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>A2DBB0C3-9EF2-BC71-42D5-31006E1B5B10</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4130E4D4-1FB7-7C83-56C2-7D69AFDF00BD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

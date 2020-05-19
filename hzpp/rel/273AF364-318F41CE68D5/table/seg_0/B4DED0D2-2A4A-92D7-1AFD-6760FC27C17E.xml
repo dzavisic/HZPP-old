@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4DED0D2-2A4A-92D7-1AFD-6760FC27C17E" name="ULOGE">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-13 21:37:20 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="uloge_id" id="52203375-EE25-068E-F725-8FF5590995E5">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-13 21:37:50 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E0AA6AA-8E4D-1F1A-5239-9B834B656E4C" referredColumn="03332DC5-72C6-78B3-303C-7EF3580DA94E"/>
+</associations>
+</Column>
+<Column name="postaja_id" id="7466D59C-8731-8335-002F-0814C92EBA77">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-13 21:38:07 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97365CEE-34E6-E86D-F3B2-E8B9CA446435" referredColumn="EA1B723A-319F-52E5-EE4F-6120BFF2188D"/>
+</associations>
+</Column>
+<Column name="vlak_id" id="684770A7-DB9E-2CE7-A923-8BD5BA0AC6A0">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-13 21:42:57 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7686AC8-15F6-E83E-84FA-A9C0508ED6ED" referredColumn="06F7B928-2782-B568-CD56-3F6DBC478CC3"/>
+</associations>
+</Column>
+<Column name="zap_id" id="D2211716-39D7-10C6-6145-3D45A61CE57E">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-13 22:12:19 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BBEF7805-0A1E-60A4-610A-EB393AD56576" referredColumn="03332DC5-72C6-78B3-303C-7EF3580DA94E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="267682B7-6B2C-D4EF-6AC2-1719F1F4D0C0" name="ULOGE_PK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-13 21:37:50 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2211716-39D7-10C6-6145-3D45A61CE57E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF317319-D55D-759C-FE61-7EECD29852F9" name="ULOGE_POSTAJA_FK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-13 21:39:33 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7466D59C-8731-8335-002F-0814C92EBA77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3429CD7-E1F5-64A1-2305-CFC9D263693C" name="ULOGE_ZAPOSLENIK_FK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-13 21:39:51 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52203375-EE25-068E-F725-8FF5590995E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F87487B-D682-AB7D-56D4-21D7BF0F9E32" name="ULOGE_VLAK_FK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-13 21:42:57 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="684770A7-DB9E-2CE7-A923-8BD5BA0AC6A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57C889A2-CCDE-784C-1139-B0E25A0EC45C" name="ULOGE_ZAPOSLENIK_FKv1">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-13 22:12:19 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2211716-39D7-10C6-6145-3D45A61CE57E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

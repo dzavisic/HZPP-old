@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CC7BF4F5-493F-8328-C104-D9CA6F96D054" containerWithKeyObject="599896D1-5CFA-9422-EB79-05D2A65D6B45" localFKIndex="C0F073F0-69C5-052F-7F54-67C0E1238E2E" name="KUPAC_POPUST_FK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:17:12 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<referredTableLongName>POPUST</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8E25EC34-472F-B188-1450-467F15A3D57C</referredTableID>
+<keyObject>26D51EF8-C8C3-EF32-8EF6-48C0B39A0B09</keyObject>
+<referredKeyID>26D51EF8-C8C3-EF32-8EF6-48C0B39A0B09</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>popust_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

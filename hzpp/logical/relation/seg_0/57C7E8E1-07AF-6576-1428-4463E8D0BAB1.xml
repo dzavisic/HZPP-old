@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ULOGE_VLAK_FK" directorySegmentName="seg_0" id="57C7E8E1-07AF-6576-1428-4463E8D0BAB1">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-13 21:43:59 UTC</createdTime>
+<generatorID>D7686AC8-15F6-E83E-84FA-A9C0508ED6ED</generatorID>
+<ownerDesignName>hzpp</ownerDesignName>
+<engineerTo>
+<item key="273AF364-BD5D-62DD-CA26-318F41CE68D5" value="true"/>
+</engineerTo>
+<sourcePk>45B643C0-DDD8-3D41-F39A-62CCE107AAFD</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5D53F674-5AF3-E464-D40D-3FD6FF7156D3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>67E47C85-E66D-5B54-DD02-C7A776BF768B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

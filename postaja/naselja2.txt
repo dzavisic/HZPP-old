@@ -1,0 +1,245 @@
+Sukosan
+Sveti Filip i Jakov
+Skabrnja
+Tkon
+Vir
+Vrsi
+Zadar
+Zemunik Donji
+Antunovac
+Beli Manastir
+Belisce
+Bilje
+Bizovac
+Ceminac
+Cepin
+Darda
+Donja Moticina
+Donji Miholjac
+Draz
+Drenje
+DJakovo
+DJurdjenovac
+Erdut
+Ernestinovo
+Fericanci
+Gorjani
+Jagodnjak
+Knezevi Vinogradi
+Koska
+Levanjska Varos
+Magadenovac
+Marijanci
+Nasice
+Osijek
+Petlovac
+Petrijevci
+Podgorac
+Podravska Moslavina
+Popovac
+Punitovci
+Satnica DJakovacka
+Semeljci
+Strizivojna
+Sodolovci
+Trnava
+Valpovo
+Viljevo
+Viskovci
+Vladislavci
+Vuka
+Blato
+Dubrovacko primorje
+Dubrovnik
+Janjina
+Konavle
+Korcula
+Kula Norinska
+Lastovo
+Lumbarda
+Metkovic
+Mljet
+Opuzen
+Orebic
+Ploce
+Pojezerje
+Slivno
+Smokvica
+Ston
+Trpanj
+Vela Luka
+Zazablje
+Zupa dubrovacka
+Bilice
+Biskupija
+Civljane
+Drnis
+Ervenik
+Kijevo
+Kistanje
+Knin
+Murter-Kornati
+Pirovac
+Primosten
+Promina
+Rogoznica
+Ruzic
+Skradin
+Sibenik
+Tisno
+Tribunj
+Unesic
+Vodice
+Andrijasevci
+Babina Greda
+Bogdanovci
+Borovo
+Bosnjaci
+Cerna
+Drenovci
+Gradiste
+Gunja
+Ilok
+Ivankovo
+Jarmina
+Lovas
+Markusica
+Negoslavci
+Nijemci
+Nustar
+Otok
+Privlaka
+Stari Jankovci
+Stari Mikanovci
+Stitar
+Tompojevci
+Tordinci
+Tovarnik
+Trpinja
+Vinkovci
+Vodjinci
+Vrbanja
+Vukovar
+Zupanja
+Baska Voda
+Bol
+Brela
+Cista Provo
+Dicmo
+Dugi Rat
+Dugopolje
+Gradac
+Hrvace
+Hvar
+Imotski
+Jelsa
+Kastela
+Klis
+Komiza
+Lecevica
+Lokvicici
+Lovrec
+Makarska
+Marina
+Milna
+Muc
+Nerezisca
+Okrug
+Omis
+Otok
+Podbablje
+Podgora
+Podstrana
+Postira
+Prgomet
+Primorski Dolac
+Prolozac
+Pucisca
+Runovici
+Seget
+Selca
+Sinj
+Solin
+Split
+Stari Grad
+Sucuraj
+Supetar
+Sutivan
+Sestanovac
+Solta
+Trilj
+Trogir
+Tucepi
+Vis
+Vrgorac
+Vrlika
+Zadvarje
+Zagvozd
+Zmijavci
+Bale-Valle
+Barban
+Brtonigla-Verteneglio
+Buje-Buie
+Buzet
+Cerovlje
+Fazana-Fasana
+Funtana-Fontane
+Gracisce
+Groznjan-Grisignana
+Kanfanar
+Karojba
+Kastelir-Labinci-Castelliere-S. Domenica
+Krsan
+Labin
+Lanisce
+Liznjan-Lisignano
+Lupoglav
+Marcana
+Medulin
+Motovun-Montona
+Novigrad-Cittanova
+Oprtalj-Portole
+Pazin
+Pican
+Porec-Parenzo
+Pula-Pola
+Rasa
+Rovinj-Rovigno
+Sveta Nedelja
+Sveti Lovrec
+Sveti Petar u Sumi
+Svetvincenat
+Tar-Vabriga-Torre Abrega
+Tinjan
+Umag-Umago
+Visnjan-Visignano
+Vizinada-Visinada
+Vodnjan-Dignano
+Vrsar-Orsera
+Zminj
+Belica
+Cakovec
+Dekanovec
+Domasinec
+Donja Dubrava
+Donji Kraljevec
+Donji Vidovec
+Gorican
+Gornji Mihaljevec
+Kotoriba
+Mala Subotica
+Mursko Sredisce
+Nedelisce
+Orehovica
+Podturen
+Prelog
+Pribislavec
+Selnica
+Strahoninec
+Sveta Marija
+Sveti Juraj na Bregu
+Sveti Martin na Muri
+Senkovec
+Strigova
+Vratisinec
+Zagreb

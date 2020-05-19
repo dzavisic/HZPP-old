@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4439437D-70CF-1C05-7D97-C739C4DDF9E8" containerWithKeyObject="E3B412BA-10F9-EF5A-EB65-3BB03B7EE2DA" localFKIndex="BD0CA944-F358-997E-F3A2-87158AE8B8FE" name="INFO_POSTAJA_FKv2">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:22:08 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<referredTableLongName>POSTAJA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>73F606DA-4254-A3DF-0FD7-8C9149491CE9</referredTableID>
+<keyObject>57066D8C-BB1F-9D36-3A98-CD6DDA405A96</keyObject>
+<referredKeyID>57066D8C-BB1F-9D36-3A98-CD6DDA405A96</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>postaja_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

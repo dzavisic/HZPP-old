@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="67E47C85-E66D-5B54-DD02-C7A776BF768B" name="ULOGE">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-13 21:43:59 UTC</createdTime>
+<generatorID>B4DED0D2-2A4A-92D7-1AFD-6760FC27C17E</generatorID>
+<ownerDesignName>hzpp</ownerDesignName>
+<engineerTo>
+<item key="273AF364-BD5D-62DD-CA26-318F41CE68D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="postaja id" id="5FDBC59F-E6AE-856C-4DD5-C6555A8073ED">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-13 22:12:43 UTC</createdTime>
+<generatorID>DBC248D1-3A14-89D8-733B-25175880AC6B</generatorID>
+<ownerDesignName>hzpp</ownerDesignName>
+<engineerTo>
+<item key="273AF364-BD5D-62DD-CA26-318F41CE68D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1C3CD012-6BAF-4EAC-AE06-67ACFB3623EA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vlak id" id="D047B820-4B75-21F2-78E2-20F1E5CDB339">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-13 22:12:43 UTC</createdTime>
+<generatorID>57C7E8E1-07AF-6576-1428-4463E8D0BAB1</generatorID>
+<ownerDesignName>hzpp</ownerDesignName>
+<engineerTo>
+<item key="273AF364-BD5D-62DD-CA26-318F41CE68D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8FB756ED-680B-30AA-0CC9-50F508DFA763</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zap id" id="1E446901-4A2D-ED35-4B25-9547417FABB9">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-13 22:12:43 UTC</createdTime>
+<generatorID>2A36B594-CC61-9CB3-29AE-07825F90E7B3</generatorID>
+<ownerDesignName>hzpp</ownerDesignName>
+<engineerTo>
+<item key="273AF364-BD5D-62DD-CA26-318F41CE68D5" value="true"/>
+</engineerTo>
+<referedAttribute>B4424BF2-8939-63A1-3719-074278985B79</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3B0A3244-018D-CC31-5A26-278F485ADAB0" name="ULOGE PK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-13 21:43:59 UTC</createdTime>
+<generatorID>267682B7-6B2C-D4EF-6AC2-1719F1F4D0C0</generatorID>
+<ownerDesignName>hzpp</ownerDesignName>
+<engineerTo>
+<item key="273AF364-BD5D-62DD-CA26-318F41CE68D5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1E446901-4A2D-ED35-4B25-9547417FABB9</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="0AE716C5-7AA0-668D-27F7-55BAADCD2AAF" name="ULOGE  UN">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-13 22:12:43 UTC</createdTime>
+<generatorID>0608D10D-8EEA-4994-AD39-85022CC01A6A</generatorID>
+<ownerDesignName>hzpp</ownerDesignName>
+<engineerTo>
+<item key="273AF364-BD5D-62DD-CA26-318F41CE68D5" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>1E446901-4A2D-ED35-4B25-9547417FABB9</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="79C18514-F7AE-552C-2A67-EA3CC29461F0" name="ULOGE  UN">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-13 23:38:20 UTC</createdTime>
+<generatorID>7F55C627-677B-B97F-BAED-E27092377335</generatorID>
+<ownerDesignName>hzpp</ownerDesignName>
+<engineerTo>
+<item key="273AF364-BD5D-62DD-CA26-318F41CE68D5" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>1E446901-4A2D-ED35-4B25-9547417FABB9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

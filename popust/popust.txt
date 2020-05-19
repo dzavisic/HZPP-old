@@ -1,0 +1,7 @@
+INSERT INTO popust (popust_id, postotak) VALUES ('student',50);
+INSERT INTO popust (popust_id, postotak) VALUES ('ucenik',30);
+INSERT INTO popust (popust_id, postotak) VALUES ('djeca',50);
+INSERT INTO popust (popust_id, postotak) VALUES ('umirovljenik',50);
+INSERT INTO popust (popust_id, postotak) VALUES ('invalid',75);
+INSERT INTO popust (popust_id, postotak) VALUES ('mladi',30);
+INSERT INTO popust (popust_id, postotak) VALUES ('nema',0);

@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5DA4860-0B1F-62D8-F0C0-6ECB152D9E8D" name="VLAK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:18:09 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vlak_id" id="06F7B928-2782-B568-CD56-3F6DBC478CC3">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:19:05 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="brzi" id="0AB83C26-8168-80D7-70CE-6D376987CA2F">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:19:05 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="putnicki" id="C7391325-AFA9-4639-90D8-6B4256C056C5">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:19:05 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="110567E5-ABA6-0A43-FC40-960680762DBB" name="VLAK_PK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:19:05 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06F7B928-2782-B568-CD56-3F6DBC478CC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

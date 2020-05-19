@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E25EC34-472F-B188-1450-467F15A3D57C" name="POPUST">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:15:58 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="popust_id" id="08DADA87-748B-368B-A16D-2A6EAD11609D">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:16:16 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postotak" id="24493EDA-7D38-3492-BE1D-B0B4A4952F49">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:16:29 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26D51EF8-C8C3-EF32-8EF6-48C0B39A0B09" name="POPUST_PK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-12 12:16:16 UTC</createdTime>
+<ownerDesignName>hzpp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08DADA87-748B-368B-A16D-2A6EAD11609D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

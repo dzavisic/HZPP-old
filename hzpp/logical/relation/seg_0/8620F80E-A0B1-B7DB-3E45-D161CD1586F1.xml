@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ULOGE_ZAPOSLENIK_FK" directorySegmentName="seg_0" id="8620F80E-A0B1-B7DB-3E45-D161CD1586F1">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-05-13 21:43:59 UTC</createdTime>
+<generatorID>4E0AA6AA-8E4D-1F1A-5239-9B834B656E4C</generatorID>
+<ownerDesignName>hzpp</ownerDesignName>
+<engineerTo>
+<item key="273AF364-BD5D-62DD-CA26-318F41CE68D5" value="true"/>
+</engineerTo>
+<sourcePk>771A2305-4F1B-5A08-2824-F3EC3B2E21A4</sourcePk>
+<dominantRole>18E8B901-B9C4-4197-2589-AFA9E66A19E4</dominantRole>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>18E8B901-B9C4-4197-2589-AFA9E66A19E4</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>67E47C85-E66D-5B54-DD02-C7A776BF768B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
